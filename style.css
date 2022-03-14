@@ -1,0 +1,61 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav li {
+    /* float: left; */
+    /* display: block; */
+    display: inline;
+    color: #f3e6e6;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  
+  .topnav li a{
+    float: right;
+    /* display: block; */
+    display: inline;
+    color: #f3e6e6;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens
+  .topnav .icon {
+    display: none;
+  }
+   */
+
+   .footer li a{
+    float: left;
+    /* display: block; */
+    display: inline;
+    color: #f3e6e6;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .topnav i {
+       padding-left: 30px;
+       padding-top: 20px;
+  }
