@@ -40,6 +40,12 @@
 <input id="one" value="0" type="number" oninput="calculate()" /> +
 <input id="two" value="0" type="number" oninput="calculate()" />
 =<span id="result"></span>
+<br><br>
+
+<input id="mal" value="0" type="number" oninput="multiple()" /> +
+<input id="mal1" value="0" type="number" oninput="multiple()" />
+=<span id="rslt"></span>
+
 
 <br> <br> <br>
  <script>
@@ -50,8 +56,14 @@
             var two = parseInt(document.getElementById('two').value);
             // // alert(number1 + number2);
             document.getElementById('result').innerHTML = one + two;
-            document.getElementById('result').innerHTML = one * two;
+            
 
+        }
+
+        function multiple(){
+            var mal = parseInt(document.getElementById('mal').value) ;
+            var mal1 = parseInt(document.getElementById('mal1').value); 
+            document.getElementById('rslt').innerHTML = mal * mal1;
         }
 
    </script>
