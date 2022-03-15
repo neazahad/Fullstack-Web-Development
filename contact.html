@@ -42,7 +42,7 @@
 =<span id="result"></span>
 <br><br>
 
-<input id="mal" value="0" type="number" oninput="multiple()" /> +
+<input id="mal" value="0" type="number" oninput="multiple()" /> *
 <input id="mal1" value="0" type="number" oninput="multiple()" />
 =<span id="rslt"></span>
 
@@ -50,7 +50,7 @@
 <br> <br> <br>
  <script>
             calculate();
-        function calculate() {
+           function calculate() {
                 //   alert("welcome to jave script")
             var one = parseInt(document.getElementById('one').value) ;
             var two = parseInt(document.getElementById('two').value);
@@ -58,9 +58,10 @@
             document.getElementById('result').innerHTML = one + two;
             
 
-        }
+        };
 
-        function multiple(){
+        multiple();
+        function multiple() {
             var mal = parseInt(document.getElementById('mal').value) ;
             var mal1 = parseInt(document.getElementById('mal1').value); 
             document.getElementById('rslt').innerHTML = mal * mal1;
